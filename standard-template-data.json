@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.11.0",
-    "generatedAt": "2026-11-12T02:42:05.949522258Z",
+    "version": "1.12.0",
+    "generatedAt": "2026-11-12T02:42:41.301396611Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -2018,7 +2018,7 @@
                     }
                   ],
                   "blockId": "fdf2f3a3-071c-4cb9-84b9-bc8745c43581",
-                  "description": ""
+                  "description": "자연 속을 거닐며 여유로운 시간"
                 },
                 {
                   "title": "Cafe",

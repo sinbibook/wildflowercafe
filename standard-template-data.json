@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.20.0",
-    "generatedAt": "2026-11-12T03:03:54.381246535Z",
+    "version": "1.21.0",
+    "generatedAt": "2026-11-12T03:07:04.035932124Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1809,7 +1809,7 @@
                 "description": ""
               },
               "essence": {
-                "title": "",
+                "title": "강화의 들판이 내려다보이는 언덕에 하얀 집이 있습니다. 마당에는 그 계절의 꽃이 피고, 창 너머로는 낮은 산자락이 보입니다. 이곳에 머무는 동안 잠시 쉬어가며 여유로운 순간을 보내보세요.",
                 "images": [
                   {
                     "id": "01a1cdb5-26b1-71a7-8379-a99ab02faf6b",
@@ -1839,7 +1839,7 @@
                     "id": "01a1cdb5-2636-7184-b834-bcb9cfab52b6",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/index_gallery/1794452563009-h9lrjps5nx.jpg",
                     "sortOrder": 0,
-                    "description": "",
+                    "description": "창가에 머무는 오후",
                     "isSelected": true,
                     "blockId": null
                   },

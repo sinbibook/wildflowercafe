@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.43.0",
-    "generatedAt": "2026-11-12T03:38:55.859206946Z",
+    "version": "1.44.0",
+    "generatedAt": "2026-11-12T03:39:35.795457950Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1860,8 +1860,8 @@
                     "blockId": null
                   },
                   {
-                    "id": "01a1cdb5-2694-7fc0-b0e0-de62d0c082aa",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/index_gallery/1794452563233-aoxfpjn87u.jpg",
+                    "id": "01a1cdd6-e0b8-7a7b-81e8-bd5cd47afef3",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/index_gallery/1794454773551-weo1douur0.jpg",
                     "sortOrder": 3,
                     "description": "꽃을 따라 걷는 시간",
                     "isSelected": true,

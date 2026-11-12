@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.9.0",
-    "generatedAt": "2026-11-12T02:39:02.032290302Z",
+    "version": "1.10.0",
+    "generatedAt": "2026-11-12T02:41:12.468097735Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1972,6 +1972,52 @@
                     }
                   ],
                   "blockId": "18ad9dbc-5001-429f-ba77-2d65025bb2c3",
+                  "description": ""
+                },
+                {
+                  "title": "Private BBQ",
+                  "images": [
+                    {
+                      "id": "01a1cda1-6c0d-7e50-a6f9-6a31b450cdb1",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/main_about/1794451270333-0e777x4hp3.jpg",
+                      "sortOrder": 2,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "371d18a6-0b09-4aee-b2a2-6e07684e7de8"
+                    },
+                    {
+                      "id": "01a1cda1-6c25-7b56-b692-c27ee9079ae1",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/main_about/1794451270334-y56ysbfvvp.jpg",
+                      "sortOrder": 3,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "371d18a6-0b09-4aee-b2a2-6e07684e7de8"
+                    }
+                  ],
+                  "blockId": "371d18a6-0b09-4aee-b2a2-6e07684e7de8",
+                  "description": "여유로운 공간에서 즐기는 식사 시간"
+                },
+                {
+                  "title": "Lawn Garden",
+                  "images": [
+                    {
+                      "id": "01a1cda1-6c11-7575-8248-e7648a9fac40",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/main_about/1794451270332-w2fvt88rp0.jpg",
+                      "sortOrder": 4,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "fdf2f3a3-071c-4cb9-84b9-bc8745c43581"
+                    },
+                    {
+                      "id": "01a1cda1-6ca9-7c18-864b-b43dd420c5bc",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/main_about/1794451270334-0yoktn1amw.jpg",
+                      "sortOrder": 5,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "fdf2f3a3-071c-4cb9-84b9-bc8745c43581"
+                    }
+                  ],
+                  "blockId": "fdf2f3a3-071c-4cb9-84b9-bc8745c43581",
                   "description": ""
                 }
               ]

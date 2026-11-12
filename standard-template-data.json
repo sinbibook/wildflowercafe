@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.10.0",
-    "generatedAt": "2026-11-12T02:41:12.468097735Z",
+    "version": "1.11.0",
+    "generatedAt": "2026-11-12T02:42:05.949522258Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -2019,6 +2019,29 @@
                   ],
                   "blockId": "fdf2f3a3-071c-4cb9-84b9-bc8745c43581",
                   "description": ""
+                },
+                {
+                  "title": "Cafe",
+                  "images": [
+                    {
+                      "id": "01a1cda2-3dee-7f32-be26-f2d39894a733",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/main_about/1794451324058-46lslxmudq.jpg",
+                      "sortOrder": 6,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "9c1d6c0f-f7b7-4f01-b842-0c1487887f4f"
+                    },
+                    {
+                      "id": "01a1cda2-3dd1-7372-8300-d96672533668",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/main_about/1794451324058-i6hvq58yxb.jpg",
+                      "sortOrder": 7,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "9c1d6c0f-f7b7-4f01-b842-0c1487887f4f"
+                    }
+                  ],
+                  "blockId": "9c1d6c0f-f7b7-4f01-b842-0c1487887f4f",
+                  "description": "머무는 공간 안에서 이어지는 \n여유로운 한 잔의 시간"
                 }
               ]
             }

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.41.0",
-    "generatedAt": "2026-11-12T03:36:32.658428098Z",
+    "version": "1.42.0",
+    "generatedAt": "2026-11-12T03:37:51.046524067Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1844,8 +1844,8 @@
                     "blockId": null
                   },
                   {
-                    "id": "01a1cdb5-2765-7d76-94d8-7297bdf0ffaa",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/index_gallery/1794452563247-obgvdq5q6n.jpg",
+                    "id": "01a1cdd5-45b9-7834-b898-cf31d2458709",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/index_gallery/1794454668382-5bmosgu81v.jpg",
                     "sortOrder": 1,
                     "description": "특별하게 즐기는 한끼",
                     "isSelected": true,

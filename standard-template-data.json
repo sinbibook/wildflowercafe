@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.5.0",
-    "generatedAt": "2026-11-12T02:32:52.921770740Z",
+    "version": "1.6.0",
+    "generatedAt": "2026-11-12T02:34:33.676831893Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1652,8 +1652,8 @@
       {
         "logo": [
           {
-            "id": "01a1cd99-cbdf-77d9-a429-1fe746cbbdc7",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/logo/1794450770570-qwiupf5tar.png",
+            "id": "01a1cd9b-572c-7348-a2aa-b05b51833bc2",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/logo/1794450871817-chxln4tkvb.png",
             "sortOrder": 0,
             "description": "",
             "isSelected": true,
@@ -1931,9 +1931,24 @@
       },
       "theme": {
         "font": {
-          "koMain": null,
-          "koSub": null,
-          "enMain": null
+          "koMain": {
+            "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
+            "key": "pretendard",
+            "woff2": null,
+            "family": "Pretendard"
+          },
+          "koSub": {
+            "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
+            "key": "pretendard",
+            "woff2": null,
+            "family": "Pretendard"
+          },
+          "enMain": {
+            "cdn": "https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap",
+            "key": "cormorant",
+            "woff2": null,
+            "family": "Cormorant"
+          }
         },
         "color": null
       },

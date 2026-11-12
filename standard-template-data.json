@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.28.0",
-    "generatedAt": "2026-11-12T03:14:47.903268555Z",
+    "version": "1.29.0",
+    "generatedAt": "2026-11-12T03:15:31.792131844Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1855,7 +1855,7 @@
                     "id": "01a1cdb5-276f-714b-94e8-85b279681b81",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/index_gallery/1794452563241-0ww6gk8p66.jpg",
                     "sortOrder": 2,
-                    "description": "",
+                    "description": "햇살이 드는 방",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -1863,7 +1863,7 @@
                     "id": "01a1cdb5-2694-7fc0-b0e0-de62d0c082aa",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a1cd81-2c15-791b-b759-054f3be5fb1b/index_gallery/1794452563233-aoxfpjn87u.jpg",
                     "sortOrder": 3,
-                    "description": "",
+                    "description": "꽃 사이로 난 길",
                     "isSelected": true,
                     "blockId": null
                   }

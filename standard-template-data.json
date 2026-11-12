@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.36.0",
-    "generatedAt": "2026-11-12T03:26:21.409121905Z",
+    "version": "1.37.0",
+    "generatedAt": "2026-11-12T03:27:01.697833203Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1926,7 +1926,7 @@
           "sections": [
             {
               "hero": {
-                "title": "Where the Seasons Unfold",
+                "title": "",
                 "images": [
                   {
                     "id": "01a1cd9e-6838-7806-9b12-138ef0ccdd63",
@@ -2033,11 +2033,11 @@
                     "blockId": null
                   }
                 ],
-                "description": "마당의 꽃이 피고 지는 동안, \n언덕 아래 들판도 조금씩 빛깔을 바꿉니다.\n강화도 야생화 카페 펜션에서 계절을 가까이 느끼며, \n마음에 드는 풍경 앞에 조금 더 머물러 보세요."
+                "description": ""
               },
               "about": [
                 {
-                  "title": "",
+                  "title": "Where the Seasons Unfold",
                   "images": [
                     {
                       "id": "01a1cdc9-02d3-7159-975e-75e8737f081f",
@@ -2057,7 +2057,7 @@
                     }
                   ],
                   "blockId": "18ad9dbc-5001-429f-ba77-2d65025bb2c3",
-                  "description": ""
+                  "description": "마당의 꽃이 피고 지는 동안, \n언덕 아래 들판도 조금씩 빛깔을 바꿉니다.\n강화도 야생화 카페 펜션에서 계절을 가까이 느끼며, \n마음에 드는 풍경 앞에 조금 더 머물러 보세요."
                 },
                 {
                   "title": "Private BBQ",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.29.0",
-    "generatedAt": "2026-11-12T03:15:31.792131844Z",
+    "version": "1.30.0",
+    "generatedAt": "2026-11-12T03:16:12.237060904Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1926,7 +1926,7 @@
           "sections": [
             {
               "hero": {
-                "title": "",
+                "title": "Where the Seasons Unfold",
                 "images": [
                   {
                     "id": "01a1cd9e-6838-7806-9b12-138ef0ccdd63",

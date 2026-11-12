@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.25.0",
-    "generatedAt": "2026-11-12T03:10:42.450421635Z",
+    "version": "1.26.0",
+    "generatedAt": "2026-11-12T03:11:26.723584061Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -1809,7 +1809,7 @@
                 "description": ""
               },
               "essence": {
-                "title": "강화의 들판이 내려다보이는 언덕에 하얀 집이 있습니다. 마당에는 그 계절의 꽃이 피고, 창 너머로는 낮은 산자락이 보입니다. 이곳에 머무는 동안 잠시 쉬어가며 여유로운 순간을 보내보세요.",
+                "title": "마당에 핀 꽃을 들여다보고 먼 산을 바라보는 사이, 마음도 한결 느긋해집니다. 강화도 야생화 카페 펜션에서 소중한 사람과 다정한 하루를 보내세요.",
                 "images": [
                   {
                     "id": "01a1cdb5-26b1-71a7-8379-a99ab02faf6b",
@@ -1830,7 +1830,7 @@
                 ],
                 "videos": [ ],
                 "mediaType": "image",
-                "description": "A Garden House by the Fields"
+                "description": "A Day Among Wildflowers"
               },
               "gallery": {
                 "title": "Speaicl Offers",

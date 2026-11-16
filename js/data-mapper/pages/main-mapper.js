@@ -65,32 +65,44 @@ class MainMapper extends BaseDataMapper {
      */
     mapMainHeroSlider() {
         if (!this.isDataLoaded) return;
-
-        // main.html 페이지의 hero_section 데이터 가져오기
         const heroData = this.safeGet(this.data, 'homepage.customFields.pages.main.sections.0.hero');
+        const slider = this.safeSelect('[data-main-hero-slider]');
+        const nav = this.safeSelect('[data-main-hero-nav]');
+        if (!slider) return;
 
-        // 단일 hero 배경 이미지 매핑
-        const heroImage = this.safeSelect('[data-customfield-main-hero-image-0]');
-
-        if (!heroImage) return;
-
-        // 이미지 데이터 확인 및 필터링
-        const hasImages = heroData && heroData.images && heroData.images.length > 0;
-        const selectedImages = hasImages
-            ? heroData.images.filter(img => img.isSelected).sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0))
-            : [];
-
-        // 선택된 이미지가 없으면 placeholder 표시
-        if (selectedImages.length === 0) {
-            ImageHelpers.applyPlaceholder(heroImage);
-        } else {
-            // 첫 번째 선택된 이미지 사용
-            heroImage.src = selectedImages[0].url;
-            heroImage.alt = selectedImages[0].description || selectedImages[0].title || 'Hero Image';
-            heroImage.classList.remove('empty-image-placeholder');
+        // 관리자 미리보기에서 재매핑할 때 기존 타이머와 이벤트를 정리한다.
+        if (window.mainHeroSlider) {
+            window.mainHeroSlider.destroy();
+            window.mainHeroSlider = null;
         }
-
-        // main.html은 단일 hero 배경 이미지 방식 (슬라이더 없음)
+        const images = Array.isArray(heroData?.images)
+            ? heroData.images.filter(img => img && img.isSelected && img.url)
+                .sort((a, b) => (a.sortOrder || 0) - (b.sortOrder || 0))
+            : [];
+        slider.replaceChildren();
+        const displayImages = images.length ? images : [null];
+        displayImages.forEach((image, index) => {
+            const slide = document.createElement('div');
+            slide.className = 'hero-slide' + (index === 0 ? ' active' : '');
+            const img = document.createElement('img');
+            if (image) {
+                img.src = image.url;
+                img.alt = image.description || image.title || '메인 배경';
+            } else {
+                ImageHelpers.applyPlaceholder(img);
+            }
+            slide.appendChild(img);
+            slider.appendChild(slide);
+        });
+        if (nav) nav.hidden = images.length < 2;
+        if (images.length > 1 && window.SliderModule) {
+            window.mainHeroSlider = window.SliderModule.initializeSlider('#main-hero-slider', {
+                controlsContainer: slider.closest('.hero-section'),
+                slideInterval: 5000,
+                skipInitialDelay: true,
+                touchEnabled: false,
+            });
+        }
     }
 
     /**

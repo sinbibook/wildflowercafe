@@ -30,12 +30,13 @@ function initializeSlider(sliderSelector, options = {}) {
     const sliderContainer = document.querySelector(sliderSelector);
     if (!sliderContainer) return null;
 
+    const controls = config.controlsContainer || sliderContainer.parentElement;
     const slides = sliderContainer.querySelectorAll('.hero-slide');
-    const currentNum = sliderContainer.parentElement.querySelector('.hero-slider-current');
-    const totalNum = sliderContainer.parentElement.querySelector('.hero-slider-total');
-    const progressFill = sliderContainer.parentElement.querySelector('.hero-slider-line-fill');
-    const prevButton = sliderContainer.parentElement.querySelector('#hero-prev, .hero-slider-arrow.prev');
-    const nextButton = sliderContainer.parentElement.querySelector('#hero-next, .hero-slider-arrow.next');
+    const currentNum = controls.querySelector('.hero-slider-current');
+    const totalNum = controls.querySelector('.hero-slider-total');
+    const progressFill = controls.querySelector('.hero-slider-line-fill');
+    const prevButton = controls.querySelector('#hero-prev, .hero-slider-arrow.prev');
+    const nextButton = controls.querySelector('#hero-next, .hero-slider-arrow.next');
 
     if (slides.length === 0) return null;
 
@@ -43,6 +44,10 @@ function initializeSlider(sliderSelector, options = {}) {
     const totalSlides = slides.length;
     let autoSlideTimer = null;
     let isTransitioning = false;
+    let startTimer = null;
+    let progressTimer = null;
+    let transitionTimer = null;
+    const listeners = new AbortController();
 
     // Touch/Drag state
     let isDragging = false;
@@ -64,7 +69,8 @@ function initializeSlider(sliderSelector, options = {}) {
             progressFill.style.transition = 'none';
             progressFill.style.width = '0%';
 
-            setTimeout(() => {
+            clearTimeout(progressTimer);
+            progressTimer = setTimeout(() => {
                 progressFill.style.transition = `width ${config.slideInterval}ms linear`;
                 progressFill.style.width = '100%';
             }, 50);
@@ -99,7 +105,7 @@ function initializeSlider(sliderSelector, options = {}) {
         }
 
         // Reset transitioning flag
-        setTimeout(() => {
+        transitionTimer = setTimeout(() => {
             isTransitioning = false;
         }, 300);
     }
@@ -182,27 +188,27 @@ function initializeSlider(sliderSelector, options = {}) {
             prevButton.addEventListener('click', (e) => {
                 e.preventDefault();
                 prevSlide();
-            });
+            }, { signal: listeners.signal });
         }
 
         if (config.navigation && nextButton) {
             nextButton.addEventListener('click', (e) => {
                 e.preventDefault();
                 nextSlide();
-            });
+            }, { signal: listeners.signal });
         }
 
         // Touch Events
         if (config.touchEnabled) {
-            sliderContainer.addEventListener('touchstart', handleStart, { passive: false });
-            sliderContainer.addEventListener('touchmove', handleMove, { passive: false });
-            sliderContainer.addEventListener('touchend', handleEnd, { passive: false });
+            sliderContainer.addEventListener('touchstart', handleStart, { passive: false, signal: listeners.signal });
+            sliderContainer.addEventListener('touchmove', handleMove, { passive: false, signal: listeners.signal });
+            sliderContainer.addEventListener('touchend', handleEnd, { passive: false, signal: listeners.signal });
 
             // Mouse Events (for desktop)
-            sliderContainer.addEventListener('mousedown', handleStart);
-            sliderContainer.addEventListener('mousemove', handleMove);
-            sliderContainer.addEventListener('mouseup', handleEnd);
-            sliderContainer.addEventListener('mouseleave', handleEnd);
+            sliderContainer.addEventListener('mousedown', handleStart, { signal: listeners.signal });
+            sliderContainer.addEventListener('mousemove', handleMove, { signal: listeners.signal });
+            sliderContainer.addEventListener('mouseup', handleEnd, { signal: listeners.signal });
+            sliderContainer.addEventListener('mouseleave', handleEnd, { signal: listeners.signal });
         }
     }
 
@@ -222,7 +228,7 @@ function initializeSlider(sliderSelector, options = {}) {
         // 자동 슬라이드 시작
         if (config.autoPlay) {
             const startDelay = config.skipInitialDelay ? 0 : config.slideInterval;
-            setTimeout(() => {
+            startTimer = setTimeout(() => {
                 resetAutoSlide();
             }, startDelay);
         }
@@ -242,7 +248,10 @@ function initializeSlider(sliderSelector, options = {}) {
         start: resetAutoSlide,
         destroy: () => {
             stopAutoSlide();
-            // 이벤트 리스너 제거는 필요시 추가 구현
+            clearTimeout(startTimer);
+            clearTimeout(progressTimer);
+            clearTimeout(transitionTimer);
+            listeners.abort();
         }
     };
 }

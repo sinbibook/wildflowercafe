@@ -31,6 +31,18 @@
 }
 
 
+.hero-background .hero-slider { position: relative; width: 100%; height: 100%; }
+.hero-background .hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 2s ease-in-out; }
+.hero-background .hero-slide.active { opacity: 1; }
+.hero-slider-progress {
+    position: absolute; bottom: 75px; left: 50%; transform: translateX(-50%);
+    z-index: 10; color: white; font-size: 14px; font-weight: 500; letter-spacing: 1px;
+}
+.hero-slider-progress[hidden] { display: none; }
+.hero-slider-current, .hero-slider-total { font-family: 'Pretendard', sans-serif; opacity: 0.9; }
+.hero-slider-progress .hero-slider-line { background: color-mix(in srgb, white 30%, transparent); }
+
+
 .hero-description {
     font-family: var(--font-ko-sub);
     font-size: 1rem;

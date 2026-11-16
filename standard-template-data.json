@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.51.0",
-    "generatedAt": "2026-11-12T11:10:17.128006494Z",
+    "version": "1.52.0",
+    "generatedAt": "2026-11-16T06:57:26.508946731Z",
     "templateType": "full_banner_slider_flat",
     "propertyId": "01a16834-d8fc-778e-a060-3c64b7a45469",
     "homepageId": "01a1cd81-2c15-791b-b759-054f3be5fb1b"
@@ -28,7 +28,7 @@
     "city": "시/군/구",
     "domain": "wildflowercafe.kr",
     "realtimeBookingId": "https://www.bookingplay.co.kr/booking/1/13755",
-    "ybsId": "",
+    "ybsId": "72076",
     "tripPropertyId": "13755",
     "partnerType": "distributor_b",
     "tripProviderName": "트립일레븐",
@@ -1483,7 +1483,7 @@
     {
       "id": "01a181a3-a899-7911-9f6a-204b64d539dc",
       "name": "사랑초 107호 (별채, 개별솥뚜껑바베큐)",
-      "description": "독채형+분리형, 거실1+침대룸(퀸침대1)+주방1+화장실1+개별바비큐\r\n25평\r\n개별바비큐,욕실용품,남녀공용,TV,금연,냉장고,에어컨,전기밥솥,취사시설/도구,드라이기,호텔식 어메니티",
+      "description": "분리형, 거실1+침대룸(퀸침대1)+주방1+화장실1+개별바비큐\r\n25평\r\n개별바비큐,욕실용품,남녀공용,TV,금연,냉장고,에어컨,전기밥솥,취사시설/도구,드라이기,호텔식 어메니티",
       "roomInfo": "",
       "usageGuide": "",
       "group": null,
@@ -1531,7 +1531,6 @@
       ],
       "roomViews": [ ],
       "roomStructures": [
-        "독채",
         "분리형"
       ],
       "status": "active",
@@ -1550,7 +1549,7 @@
         {
           "thumbnail": [
             {
-              "id": "01a1cf51-64c7-756d-a59b-bdb2b401372e",
+              "id": "01a1d380-eb82-7097-8c3f-b42914a5bcea",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/6JVSfMKjeE2B.jpg",
               "sortOrder": 1,
               "description": "",
@@ -1560,7 +1559,7 @@
           ],
           "interior": [
             {
-              "id": "01a1cf51-64c7-7cc0-908d-c65771947711",
+              "id": "01a1d380-eb9e-71bf-80e1-0b656b18afcb",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/tlA5kGQRLwgy.jpg",
               "sortOrder": 2,
               "description": "",
@@ -1568,7 +1567,7 @@
               "blockId": null
             },
             {
-              "id": "01a1cf51-64c7-7dad-8235-7039a918c22e",
+              "id": "01a1d380-eb9e-74ca-98e3-d49d76d64e48",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/q0kLyd4NeoBR.jpg",
               "sortOrder": 3,
               "description": "",
@@ -1576,7 +1575,7 @@
               "blockId": null
             },
             {
-              "id": "01a1cf51-64c8-71ab-9980-5fc68d1e8efc",
+              "id": "01a1d380-eb9e-7cfe-a0c7-a59a6d493ff5",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/DVeO5T4E0WyB.jpg",
               "sortOrder": 4,
               "description": "",
@@ -1584,7 +1583,7 @@
               "blockId": null
             },
             {
-              "id": "01a1cf51-64c8-7258-a494-5d6e6a8acc8c",
+              "id": "01a1d380-eb9e-7efd-a985-3f8be4816ca9",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/35xQY4MGaNtZ.jpg",
               "sortOrder": 5,
               "description": "",
@@ -1592,7 +1591,7 @@
               "blockId": null
             },
             {
-              "id": "01a1cf51-64c8-7339-85ba-897943405a45",
+              "id": "01a1d380-eb9f-7515-bc4d-46a3d55fef56",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/1n4YyWr6JNxM.jpg",
               "sortOrder": 6,
               "description": "",
@@ -1600,7 +1599,7 @@
               "blockId": null
             },
             {
-              "id": "01a1cf51-64c8-739b-8af7-2031734c3f44",
+              "id": "01a1d380-ebbc-717e-993d-a6079dac4045",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/InZP7zXD8ew9.jpg",
               "sortOrder": 7,
               "description": "",
@@ -1608,7 +1607,7 @@
               "blockId": null
             },
             {
-              "id": "01a1cf51-64c8-73e2-aa2d-72bc579a56e5",
+              "id": "01a1d380-ebbc-7b36-b2e7-4d669a82c810",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/f6OVlM9Br7pv.jpg",
               "sortOrder": 8,
               "description": "",
@@ -1616,7 +1615,7 @@
               "blockId": null
             },
             {
-              "id": "01a1cf51-64c8-7406-b78c-fbb8b14d9a5c",
+              "id": "01a1d380-ebbc-7d06-8098-bab2cc4d943f",
               "url": "https://bookingplay-media.s3.amazonaws.com/room_images/2026/11/10/iJuM9V0Wqyva.jpg",
               "sortOrder": 9,
               "description": "",
